@@ -1,0 +1,86 @@
+04.24 12:05
+termux修改问候语方法
+
+更换源之后来赶紧来下载安装一些基本工具吧，这些工具基本上是 Linux 系统自带的，因为 Termux 为了体积不过大，默认是没有带这些工具的，执行下面的命令来安装:
+
+
+
+安装vim
+
+
+pkg update
+pkg install vim curl wget git tree -y
+
+
+pkg  install  vim
+
+修改问候语
+
+vim   $PREFIX/etc/motd
+
+
+i  输入模式
+
+回车键或esc退出输入模式
+
+命令行模式输入:冒号:wq
+
+保存修改退出
+esc
+
+:wq保存退出vim
+
+最后
+$ exit
+退出重启termux 
+
+即可完成修改问候语
+
+ctrl+c     Ctrl + C -> 中止当前进程
+
+并  返回 命令行$
+
+$ exit
+退出重启termux 
+
+
+
+
+
+
+
+ZSH_THEME="random"
+
+
+zsh 主题配色
+编辑家目录下的.zshrc配置文件
+
+Bash
+$ vim .zshrc
+第一行可以看到,默认的主题是agnoster主题:
+
+￼
+实际上这个主题也蛮酷的，如果你还想更换其他主题的话，那么在.oh-my-zsh/themes目录下放着oh-my-zsh所有的主题配置文件，只要将默认的 agnoster 更换为其他的主题文件名即可。
+
+
+开启访问权限
+
+termux-setup-storage
+
+
+
+
+vim  常用命令  i  进入输入模式
+
+esc  退出输入模式，后，是命令行模式
+
+命令行模式输入冒号  :x
+:x  保存修改并返回
+
+相当于:wq  返回  和   exit 命令
+
+
+
+
+
+

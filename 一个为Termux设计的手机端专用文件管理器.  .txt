@@ -1,0 +1,39 @@
+04.24 12:07
+一个为Termux设计的手机端专用文件管理器.
+
+一个为Termux设计的手机端专用文件管理器.
+
+详见Github: https://github.com/OrangeX4/Termux-Finux
+
+安装:
+npm install -g finux
+
+
+
+运行:
+
+
+finux
+
+
+
+先安装nodjs
+pkg install nodejs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
